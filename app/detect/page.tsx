@@ -34,6 +34,7 @@ export default function ObjectDetectionPage() {
           setDebugLog("System Ready");
           speak("Camera ready. Tap to scan.");
         }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } catch (err: any) {
         console.error("Model Load Error:", err);
         setDebugLog("Offline Mode / Error");

@@ -141,13 +141,13 @@ export default function VoiceControlPage() {
             >
                 <h2 className={`text-sm font-bold uppercase tracking-widest mb-4 flex items-center gap-2 ${listening ? "text-rose-400" : "text-zinc-500"}`}>
                     {listening ? (
-                        <><Sparkles size={16} /> I'm Listening</>
+                        <><Sparkles size={16} /> I&apos;m Listening</>
                     ) : (
                         "Mic Paused"
                     )}
                 </h2>
                 <p className="text-3xl font-medium leading-relaxed text-zinc-100">
-                    "{transcript || <span className="text-zinc-600 italic">Say 'Help'...</span>}"
+                    &quot;{transcript || <span className="text-zinc-600 italic">Say &apos;Help&apos;...</span>}&quot;
                 </p>
             </motion.div>
         </section>
