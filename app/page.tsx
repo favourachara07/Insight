@@ -55,7 +55,7 @@ export default function Home() {
       subLabel: "Locate where you are",
       icon: <MapPin className="w-10 h-10" aria-hidden="true" />,
       ariaLabel: "Open GPS Location Assistance",
-      route: "/navigation",
+      route: "/gps",
       color: "text-emerald-400",
       border: "hover:border-emerald-400/50",
       bgHover: "hover:bg-emerald-400/10",
