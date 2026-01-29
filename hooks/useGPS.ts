@@ -29,7 +29,7 @@ export const useGPS = () => {
         `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`,
         {
           headers: {
-            "User-Agent": "AntigravityApp/1.0", // Required by OSM
+            "User-Agent": "InsightApp/1.0", // Required by OSM
           },
         }
       );

@@ -83,7 +83,7 @@ export default function Home() {
         {/* Header */}
         <header className="py-8 mb-4">
           <h1 className="text-4xl font-bold tracking-tight text-white mb-2">
-            Antigravity
+            Project InSight
           </h1>
           <p className="text-zinc-400 text-lg">
             Your vision assistant.
