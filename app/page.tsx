@@ -33,7 +33,7 @@ export default function Home() {
       subLabel: "Identify surroundings",
       icon: <Camera className="w-10 h-10" aria-hidden="true" />,
       ariaLabel: "Open Object Identifier Camera",
-      route: "/object-id",
+      route: "/detect",
       color: "text-amber-400",
       border: "hover:border-amber-400/50",
       bgHover: "hover:bg-amber-400/10",
